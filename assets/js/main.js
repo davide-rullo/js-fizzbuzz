@@ -1,4 +1,8 @@
 
+const blocco = document.createElement("div");
+blocco.className = "container";
+blocco.textContent = "ciao";
+
 for (let i = 1; i <= 100; i++) {
   
     if (i % 3 === 0 && i % 5 === 0){
@@ -7,8 +11,11 @@ for (let i = 1; i <= 100; i++) {
         console.log("fizz");
     } else if (i % 5 === 0) {
         console.log("buzz");
-    }   else {
+    } else {
         console.log(i);
     }
+
     
 }
+
+
