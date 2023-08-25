@@ -1,10 +1,37 @@
-.square{
-    width: 30px;
+body{
+    background-color: #2F5755;
+    font-family: helvetica;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+
+.square, .squareF, .squareB, .squareFB{
+    width: 60px;
     aspect-ratio: 1/1;
-    background-color: aqua;
+    background-color: #54C6BE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.squareF{
+    background-color: #f7b15c;
+}
+
+.squareB{
+    background-color: #f65b51;
+}
+
+.squareFB{
+    background-color: #e5243f;
 }
 
 .container{
     display: flex;
     flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
 }
